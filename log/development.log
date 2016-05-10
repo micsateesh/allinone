@@ -1,0 +1,93 @@
+  [1m[36m (1747.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (1088.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:32:26 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (18.0ms)
+Completed 200 OK in 139ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:41:26 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (0.3ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:41:28 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:41:29 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:41:31 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:41:32 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 17:42:19 +0530
+Processing by WallpaperController#index as HTML
+  Rendered wallpaper/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1392ms (Views: 1390.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wallpaper.css?body=1" for 127.0.0.1 at 2016-05-10 17:42:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 17:42:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 17:42:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 17:42:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 17:42:20 +0530
+
+
+Started GET "/assets/wallpaper.js?body=1" for 127.0.0.1 at 2016-05-10 17:42:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 17:42:21 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 18:03:20 +0530
+Processing by WallpaperController#index as HTML
+  Rendered wallpaper/index.html.erb within layouts/application (1343.8ms)
+Completed 200 OK in 9604ms (Views: 8235.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wallpaper.css?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
+
+
+Started GET "/assets/wallpaper.js?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:03:41 +0530
