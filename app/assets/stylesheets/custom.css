@@ -1,0 +1,33 @@
+.dropdown{
+    margin-left: 11%;
+    border-radius: 5px;
+}
+.dropdown-menu {
+    background-color:  #eee;
+}
+.dropdown-menu li a{
+    
+}
+.dropdown-menu li a:hover{
+    background-color: #005580;
+    color: #fff;
+    
+}
+
+
+
+
+/* body{
+  margin: 0px auto;
+  padding: 0px;
+  background: #06855a;
+  text-align: center;
+ }
+
+.browser1{
+  display: inline-block;
+  position: relative;
+  width: 320px !important;
+  height: 480px !important;
+  background: #efefef;
+ }*/

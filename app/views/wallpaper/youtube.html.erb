@@ -1,0 +1,31 @@
+<html>
+<head>
+  <script>
+  function mobile320() {
+    document.querySelector(".browser1").setAttribute("src", "http://www.ymcaust.ac.in");
+}
+  </script>
+
+<style type="text/css">
+ body{
+  margin: 0px auto;
+  padding: 0px;
+  background: #06855a;
+  text-align: center;
+ }
+
+.browser1{
+  display: inline-block;
+  position: relative;
+  width: 100% !important;
+  height: 0% !important;
+  background: #efefef;
+ }
+</style>
+</head>
+
+ <body>
+   <input type="button" value="Load new document" onclick="mobile320()" />
+   <iframe class="browser1"></iframe>
+ </body>
+</html>
