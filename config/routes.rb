@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  match '/hollywood_mp3', to: 'mp3#hollywood', via: [:get]
+  match '/bollywood_mp3', to: 'mp3#bollywood', via: [:get]
+  match '/punjabi_mp3', to: 'mp3#punjabi', via: [:get]
+  match '/dehati_mp3', to: 'mp3#dehati', via: [:get]
+  match '/hollywood_videos', to: 'videos#hollywood', via: [:get]
+  match '/bollywood_videos', to: 'videos#bollywood', via: [:get]
+  match '/punjabi_videos', to: 'videos#punjabi', via: [:get]
+  match '/dehati_videos', to: 'videos#dehati', via: [:get]
+  match '/hollywood_movies', to: 'movies#hollywood', via: [:get]
+  match '/bollywood_movies', to: 'movies#bollywood', via: [:get]
+  match '/punjabi_movies', to: 'movies#punjabi', via: [:get]
+  match '/dehati_movies', to: 'movies#dehati', via: [:get]
+  # match '/holliwood_mp3', to: 'mp3#holliwood_mp3', via: [:get]
+  # match '/holliwood_mp3', to: 'mp3#holliwood_mp3', via: [:get]
+  # match '/holliwood_mp3', to: 'mp3#holliwood_mp3', via: [:get]
+  # match '/holliwood_mp3', to: 'mp3#holliwood_mp3', via: [:get]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,5 +69,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'wallpaper#youtube'
+  root 'wallpaper#index'
 end

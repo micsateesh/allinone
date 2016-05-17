@@ -40,10 +40,10 @@
 	MP3 SONGS <span class="caret"></span>
 	</a>
 	<ul class="dropdown-menu">
-		<li><a href="#">BOLLYWOOD</a></li>
-		<li><a href="#">HOLLYWOOD</a></li>
-		<li><a href="#">PUNJABI</a></li>
-		<li><a href="#">DEHATI</a></li>
+		<li><a href="/bollywood_mp3">BOLLYWOOD</a></li>
+		<li><a href="hollywood_mp3">HOLLYWOOD</a></li>
+		<li><a href="punjabi_mp3">PUNJABI</a></li>
+		<li><a href="dehati_mp3">DEHATI</a></li>
 	</ul>
 	</li>
 	<li class="dropdown">
@@ -51,10 +51,10 @@
 	VIDEO SONGS <span class="caret"></span>
 	</a>
 	<ul class="dropdown-menu">
-		<li><a href="#">BOLLYWOOD</a></li>
-		<li><a href="#">HOLLYWOOD</a></li>
-		<li><a href="#">PUNJABI</a></li>
-		<li><a href="#">DEHATI</a></li>
+		<li><a href="bollywood_videos">BOLLYWOOD</a></li>
+		<li><a href="hollywood_videos">HOLLYWOOD</a></li>
+		<li><a href="punjabi_videos">PUNJABI</a></li>
+		<li><a href="dehati_videos">DEHATI</a></li>
 	</ul>
 	</li>
 	<li class="dropdown">
@@ -62,10 +62,10 @@
 	MOVIES <span class="caret"></span>
 	</a>
 	<ul class="dropdown-menu">
-		<li><a href="#">BOLLYWOOD</a></li>
-		<li><a href="#">HOLLYWOOD</a></li>
-		<li><a href="#">PUNJABI</a></li>
-		<li><a href="#">DEHATI</a></li>
+		<li><a href="bollywood_movies">BOLLYWOOD</a></li>
+		<li><a href="hollywood_movies">HOLLYWOOD</a></li>
+		<li><a href="punjabi_movies">PUNJABI</a></li>
+		<li><a href="dehati_movies">DEHATI</a></li>
 	</ul>
 	</li>
 	</ul>
@@ -85,9 +85,9 @@
 			</div>
 			<div class="row">
 				<div class="you-tube-downloader">
-							<form action="http://www.clipconverter.cc/results" method="get" target="_self" >
-							<input name="search_query" type="text" maxlength="128" placeholder="enter" />
-							<input type="submit" value="Search"/>
+							<!-- <div id="topBar"> <a href ="https://www.youtube.com/" onclick="load_home()"> HOME </a> </div>
+				 -->
+				 <button onclick="myFunction()">Try it</button>
 				</div>
 			</div>
 		</div>
@@ -96,5 +96,8 @@
 </body>
 </html>
  <script>
+function myFunction() {
+    var myWindow = window.open("https://www.youtube.com/", "myWindow", "width=500,height=500");
+}
 
   </script>
