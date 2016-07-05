@@ -71,9 +71,9 @@
 	</ul>
 	<div class="container">
 		<div class="row">
-			<div class="you-tube-block">
-				<div class="you-tube" id="" style="width:1000px; height:100px;">
-					<form action="http://www.youtube.com/results" method="get" target="_self" >
+			<div class="youtube-block" >
+				<div class="youtube" id="" style="width:1000px; height:100px;">
+					<form action="http://www.youtube.com/results" method="get" target="_blank" >
 						<input name="search_query" type="text" maxlength="128" placeholder="enter" />
 						<!-- <select name="search_type">
 						<option value="">Videos</option>
@@ -84,20 +84,38 @@
 				</div>
 			</div>
 			<!-- <div class="row">
-				<div class="you-tube-downloader" -->
-							<!-- <div id="topBar"> <a href ="https://www.youtube.com/" onclick="load_home()"> HOME </a> </div>
-				 -->
-				<!--  <button onclick="myFunction()">Try it</button>
+				<div class="you-tube-downloader">
+							<div id="topBar"> <a href ="https://www.youtube.com/" onclick="load_home()"> HOME </a> </div>
+				
+				 <button onclick="myFunction()">Try it</button>
 				</div>
 			</div> -->
+
 		</div>
-	</div>
+		<div class="row">
+			 <button id="hide" type="button">hide</button> 
+			  <button id="show" type="button">show</button> 
+			<div class="youtube-download-block" style="display:none"> 
+		    	<object type="text/html" data="http://9xbuddy.com/" width="100%" height="600px" style="border:5px ridge blue">
+		    	</object>
+		    	<!-- <object type="text/html" data="http://9xbuddy.com/">
+		    	</object> -->
+			</div>
+		</div>
+	</div>		
 
 </body>
 </html>
  <script>
-// function myFunction() {
-//     var myWindow = window.open("https://www.youtube.com/", "myWindow", "width=500,height=500");
-// }
+function myFunction() {
+    var myWindow = window.open("http://www.clipconverter.cc/", "myWindow", "width=500,height=500");
+}
+$("#hide").click(function(){
+    $(".youtube-download-block").hide();
+});
+
+$("#show").click(function(){
+    $(".youtube-download-block").show();
+});
 
   </script>
