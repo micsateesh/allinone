@@ -13,6 +13,7 @@
  <link href="assets/bootstrap.min.css" type="text/css" rel="stylesheet" />
   <link href="assets/custom.css" type="text/css" rel="stylesheet" />
  <script type="text/javascript" src="/assets/bootstrap.js"></script>
+ <script type="text/javascript" src="/assets/jquery-2.2.4.js"></script>
 </head>
 <body>
 	<!-- <div class="dropdown">
@@ -42,8 +43,8 @@
 	<ul class="dropdown-menu">
 		<li><a href="/bollywood_mp3" target="_blank">BOLLYWOOD</a></li>
 		<li><a href="hollywood_mp3" target="_blank">HOLLYWOOD</a></li>
+		<li><a href="haryanvi_mp3" target="_blank">HARYANVI</a></li>
 		<li><a href="punjabi_mp3" target="_blank">PUNJABI</a></li>
-		<li><a href="dehati_mp3" target="_blank">DEHATI</a></li>
 	</ul>
 	</li>
 	<li class="dropdown">
@@ -53,8 +54,8 @@
 	<ul class="dropdown-menu">
 		<li><a href="bollywood_videos" target="_blank">BOLLYWOOD</a></li>
 		<li><a href="hollywood_videos" target="_blank">HOLLYWOOD</a></li>
+		<li><a href="haryanvi_videos" target="_blank">HARYANVI</a></li>
 		<li><a href="punjabi_videos" target="_blank">PUNJABI</a></li>
-		<li><a href="dehati_videos" target="_blank">DEHATI</a></li>
 	</ul>
 	</li>
 	<li class="dropdown">
@@ -64,8 +65,8 @@
 	<ul class="dropdown-menu">
 		<li><a href="bollywood_movies" target="_blank">BOLLYWOOD</a></li>
 		<li><a href="hollywood_movies" target="_blank">HOLLYWOOD</a></li>
+		<li><a href="haryanvi_movies" target="_blank">HARYANVI</a></li>
 		<li><a href="punjabi_movies" target="_blank">PUNJABI</a></li>
-		<li><a href="dehati_movies" target="_blank">DEHATI</a></li>
 	</ul>
 	</li>
 	</ul>
@@ -117,5 +118,9 @@ $("#hide").click(function(){
 $("#show").click(function(){
     $(".youtube-download-block").show();
 });
+
+  $(window).load(function(){
+  var url =  window.location;
+  });
 
   </script>
