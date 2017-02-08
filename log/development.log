@@ -49781,3 +49781,258 @@ Started GET "/assets/bootstrap.js" for 127.0.0.1 at 2017-02-08 22:17:07 +0530
 
 
 Started GET "/assets/jquery-2.2.4.js" for 127.0.0.1 at 2017-02-08 22:17:07 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (3.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+Processing by WallpaperController#index as HTML
+  Rendered wallpaper/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 181ms (Views: 169.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/mp3.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/wallpaper.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/jquery-2.2.4.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/mp3.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/wallpaper.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2017-02-08 22:56:28 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-08 22:56:33 +0530
+Processing by WallpaperController#index as HTML
+  Rendered wallpaper/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/mp3.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/wallpaper.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/jquery-2.2.4.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/mp3.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/wallpaper.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2017-02-08 22:56:34 +0530
+
+
+Started GET "/bollywood_mp3" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+Processing by Mp3Controller#bollywood as HTML
+  Rendered mp3/_main_header.html.erb (0.5ms)
+  Rendered mp3/bollywood.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/mp3.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/wallpaper.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/jquery-2.2.4.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/mp3.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/wallpaper.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2017-02-08 22:56:40 +0530
+
+
+Started GET "/hollywood_mp3" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+Processing by Mp3Controller#hollywood as HTML
+  Rendered mp3/_main_header.html.erb (0.1ms)
+  Rendered mp3/hollywood.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 103ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/wallpaper.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/mp3.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/jquery-2.2.4.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/mp3.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/wallpaper.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2017-02-08 22:56:55 +0530
